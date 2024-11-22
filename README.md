@@ -68,7 +68,7 @@ docker run -d \
   neo4jv_backup:latest
 ```
 
-Replace ```/path/to/your/induscopekg-data``` with the path to the directory where you want to store Neo4j data persistently on your system. This ensures your data is saved even if the container is stopped or removed.
+Replace ```/path/to/your/neo4j-data``` with the path to the directory where you want to store Neo4j data persistently on your system. This ensures your data is saved even if the container is stopped or removed.
 
 **Default credentials**:
 - **Username**: `neo4j`
