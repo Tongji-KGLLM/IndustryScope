@@ -158,10 +158,5 @@ series = {MM '24}
 ```
 
 
-## Acknowledgement
-
-xxxxxx
-
-
 
 
