@@ -114,7 +114,7 @@ series = {MM '24}
 ```
 
 
-## Contact
+## Acknowledgement
 
-Zhe Hu (zhehu.derek at gmail.com)
+xxxxxx
 
