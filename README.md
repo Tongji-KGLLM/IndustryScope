@@ -2,7 +2,7 @@
   <h1>Decoding Urban Industrial Complexity:<br>Enhancing Knowledge-Driven Insights via IndustryScopeGPT</h1>
 
 <p align="center">
-    [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=5X-Il5Ndkao&t=1661s)
+    [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube)](https://www.youtube.com/watch?v=5X-Il5Ndkao&t=1661s)
     <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681705"><img alt="Static Badge" src="https://img.shields.io/badge/Web-ACMMM-red"></a>
     <a href="https://arxiv.org/abs/2309.12871"><img alt="Static Badge" src="https://img.shields.io/badge/Paper-Arxiv-green"></a>
     
