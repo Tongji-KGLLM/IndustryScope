@@ -40,7 +40,7 @@ The IndustryScopeGPT framework was developed to enhance the planning, action, an
 
 ## 🔗 IndustryscopeKG Data
 
-The **raw data** is available for download from **[Kaggle](your-kaggle-link)**
+The **raw data** is available for download from **[Kaggle](your-kaggle-link)**.
 
 For seamless integration, we recommend using **Neo4j** to analyze and interact with the knowledge graph.
 
