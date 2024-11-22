@@ -47,7 +47,7 @@ For seamless integration, we recommend using **Neo4j** to analyze and interact w
 
 ---
 
-## 🛠️ Getting Started with Neo4j
+### 🛠️ Getting Started with Neo4j
 
 We provide a **Neo4j Docker Image** to simplify the process of setting up and working with the IndustryScopeKG dataset.
 
