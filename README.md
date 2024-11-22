@@ -82,6 +82,7 @@ docker run -d \
   -e NEO4J_AUTH=neo4j/password \
   -v /path/to/your/induscopekg-data:/data \
   neo4j:latest
+
 Replace /path/to/your/induscopekg-data with the path to the directory containing the dataset.
 Default credentials:
 Username: neo4j
@@ -92,10 +93,12 @@ Login with the credentials you set (neo4j/password).
 Step 4: Import IndustryScopeKG into Neo4j
 Run the following Cypher commands in the Neo4j browser to load the dataset:
 
+
 ```
 LOAD CSV WITH HEADERS FROM 'file:///path/to/your/induscopekg-data.csv' AS row
 CREATE (e:Entity {id: row.entity_id, name: row.entity_name, type: row.entity_type})
 ```
+
 Replace the file path (file:///path/to/your/induscopekg-data.csv) with the actual location of your dataset CSV file.
 
 🌟 Usage Notes
@@ -120,7 +123,6 @@ The Annotation file VIVA_annotation.json contains a list of json objects, with e
 - answer: The correct answer candidate;
 - values: The human values in the Level-2 value inference task;
 - reason: The reason in the level-2 reason generation task.
-
 
 
 ---
