@@ -24,7 +24,7 @@
   
 IndustryScopeKG is the first and largest open-source, multimodal large-scale knowledge graph dataset. It integrates geospatial data such as street view images, points of interest, and crowd activities, along with socio-economic data including company information, real estate prices, and population statistics. The dataset contains 2,232,037 entities and 51,684,939 triples.
 <p align="center">
-<img src="assets/figure4.jpg" width="90%"/>
+<img src="assets/figure4.jpg" width="95%"/>
 </p>
 - **First Application of LLM in Industrial Park Planning and Operations**
 
