@@ -1,16 +1,23 @@
 <div align="center" style="font-family: charter;">
   <h1>Decoding Urban Industrial Complexity:<br>Enhancing Knowledge-Driven Insights via IndustryScopeGPT</h1>
 
-This repository provides the *data and code* of our paper:
-
-**Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT  [ACM MM 2024]**
-
 <p align="center">
     <a href="https://github.com/huggingface/trl/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/huggingface/trl.svg?color=blue"></a>
     <a href="https://github.com/MikaStars39/FeatureAlignment/blob/main/assets/qrcode_1731259533808.jpg"><img alt="Static Badge" src="https://img.shields.io/badge/QQ-join_group-red"></a>
     <img alt="Static Badge" src="https://img.shields.io/badge/paper-arxiv-yellow">
     <img alt="Static Badge" src="https://img.shields.io/badge/discord-join-purple">
-
+<a href="https://arxiv.org/abs/2309.12871">
+    <img src="https://img.shields.io/badge/Arxiv-2309.12871-yellow.svg?style=flat-square" alt="https://arxiv.org/abs/2309.12871" />
+</a>
+<a href="https://pypi.org/project/angle_emb/">
+    <img src="https://img.shields.io/pypi/v/angle_emb?style=flat-square" alt="PyPI version" />
+</a>
+<a href="https://pypi.org/project/angle_emb/">
+    <img src="https://img.shields.io/pypi/dm/angle_emb?style=flat-square" alt="PyPI Downloads" />
+</a>
+<a href="https://angle.readthedocs.io/en/latest/index.html">
+    <img src="https://readthedocs.org/projects/angle/badge/?version=latest&style=flat-square" alt="Read the docs" />
+</a>
 </p>
 
 [project page](https://virl-platform.github.io) | [arXiv](https://arxiv.org/abs/2402.03310)
