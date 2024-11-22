@@ -94,10 +94,6 @@ CREATE (e:Entity {id: row.entity_id, name: row.entity_name, type: row.entity_typ
 
 Replace the file path (```file:///path/to/your/induscopekg-data.csv```) with the actual location of your dataset CSV file.
 
-### 🌟 Usage Notes
-The dataset can be used standalone or integrated into your projects. It works particularly well with graph-based reasoning frameworks.
-For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
-
 ### 🌰 Example Queries
 Here are some useful Cypher queries you can play with:
 
@@ -165,6 +161,9 @@ Table2: The Statistics of Triples in IndustryScopeKG
 | **Has**          | E.g., (Industrial Park, Planned Industries), (Grid, Leading Scope of Operations), (Grid, Dominant Functions)             | 4,252,341          |
 | **Attribution**  | (Industrial Park, Value) with 111 attributions, (Grid, Value) with 82 attributions, (POI, Value) including 15 attributions, (Enterprise, Value) with 36 attributions | 44,413,585         |
 
+### 🌟 Usage Notes
+The dataset can be used standalone or integrated into your projects. It works particularly well with graph-based reasoning frameworks.
+For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
 
 
 
