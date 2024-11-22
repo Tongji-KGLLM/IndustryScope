@@ -82,6 +82,7 @@ docker run -d \
   -e NEO4J_AUTH=neo4j/password \
   -v /path/to/your/induscopekg-data:/data \
   neo4j:latest
+```
 
 Replace /path/to/your/induscopekg-data with the path to the directory containing the dataset.
 Default credentials:
@@ -137,6 +138,7 @@ Please check the scripts and instructions under the folder ```scripts```
 ## 🤗 Citation 
 
 If our work sparks your interest or helps your research, a little cite would mean a lot!
+
 ```bibtex
 @inproceedings{10.1145/3664647.3681705,
 author = {Wang, Siqi and Liang, Chao and Gao, Yunfan and Liu, Yang and Li, Jing and Wang, Haofen},
@@ -163,4 +165,7 @@ series = {MM '24}
 ## Acknowledgement
 
 xxxxxx
+
+
+
 
