@@ -2,14 +2,9 @@
   <h1>Decoding Urban Industrial Complexity:<br>Enhancing Knowledge-Driven Insights via IndustryScopeGPT</h1>
 
 <p align="center">
+    <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681705"><img alt="Static Badge" src="https://img.shields.io/badge/Web-ACMMM-red"></a>
+    <a href="https://arxiv.org/abs/2309.12871"><img alt="Static Badge" src="https://img.shields.io/badge/Paper-Arxiv-green"></a>
   
-<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681705">
-    <img src="https://img.shields.io/badge/Web-ACMMM-red.svg?style=flat-square" />
-</a>
-  
-<a href="https://arxiv.org/abs/2309.12871">
-    <img src="https://img.shields.io/badge/Arxiv-2309.12871-green.svg?style=flat-square" alt="https://arxiv.org/abs/2309.12871" />
-</a>
 </p>
 
 
