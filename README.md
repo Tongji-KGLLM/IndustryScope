@@ -124,11 +124,12 @@ The Annotation file VIVA_annotation.json contains a list of json objects, with e
 ---
 
 ## 🧪 Experiments
-### Model Prediction
+
+### Model Inference
 Please check the scripts and instructions under the folder ```scripts```
 
-### Evaluation
-- [ ] To do
+### Evaluation results
+
 
 
 ## 🤗 Citation 
