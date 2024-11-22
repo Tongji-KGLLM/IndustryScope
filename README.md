@@ -12,7 +12,7 @@
 </p>
 
 
-<img src="assets/figure1.png" width="100%"/>
+<img src="assets/figure1.png" width="96%"/>
 
 </div>
 
