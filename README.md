@@ -71,23 +71,30 @@ docker run -d \
 ```
 
 Replace /path/to/your/induscopekg-data with the path to the directory containing the dataset.
-Default credentials:
-Username: neo4j
-Password: password (you can customize this in the NEO4J_AUTH variable).
-Step 3: Access Neo4j
-Open your browser and navigate to: http://localhost:7474
-Login with the credentials you set (neo4j/password).
-Step 4: Import IndustryScopeKG into Neo4j
+
+**Default credentials**:
+- **Username**: `neo4j`
+- **Password**: `password` (you can customize this in the `NEO4J_AUTH` variable).
+
+---
+
+### Step 3: Access Neo4j
+
+1. Open your browser and navigate to: [http://localhost:7474](http://localhost:7474).
+2. Login with the credentials you set (`neo4j/password`).
+
+---
+
+### Step 4: Import IndustryScopeKG into Neo4j
+
 Run the following Cypher commands in the Neo4j browser to load the dataset:
 
-
-```
+```cypher
 LOAD CSV WITH HEADERS FROM 'file:///path/to/your/induscopekg-data.csv' AS row
 CREATE (e:Entity {id: row.entity_id, name: row.entity_name, type: row.entity_type})
 ```
 
 Replace the file path (file:///path/to/your/induscopekg-data.csv) with the actual location of your dataset CSV file.
-
 🌟 Usage Notes
 The dataset can be used standalone or integrated into your projects. It works particularly well with graph-based reasoning frameworks.
 For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
