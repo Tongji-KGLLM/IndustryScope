@@ -174,8 +174,6 @@ For LLM-based planning and operations, the dataset complements the IndustryScope
 ### Model Inference
 IndustryscopeGPT scripts will be available soon under the folder ```scripts```
 
-### Experiments
-
 ---
 
 ## 🤗 Citation 
