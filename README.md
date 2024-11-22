@@ -103,43 +103,43 @@ For LLM-based planning and operations, the dataset complements the IndustryScope
 #### Example Queries
 Here’s an example Cypher query to find all connections for a specific entity:
 
-    Question1:静安区的所有产业园区都有哪些？  
-    ```
-    MATCH (p:park) 
-    WHERE p.所属区县 = "静安区"
-    RETURN p.名称 AS 园区名称
-    ```
-    Question1:上海张江高科技园内的网格根据零售服务POI数量的排序是什么？ 
-    
-    ```
-    MATCH (p:park {{名称: "上海张江高科技园区"}})-[:IS_IN]-(f:fishnet)
-    RETURN p.fishnet AS FishnetID, f.零售服务POI数量 AS RetailServicesCount
-    ORDER BY RetailServicesCount DESC
-    ```
-    
-    Question3:朕天总部经济工业园里有没有便利店？
-    
-    ```
-    MATCH (poi:poi_retail)-[:IS_IN]->(:park {{名称: '朕天总部经济工业园'}})
-    WHERE poi.类别 CONTAINS '便利店' OR poi.类别 CONTAINS '零售' OR poi.类别 CONTAINS '便民商店'
-    RETURN COUNT(poi) AS 便利店数量
-    ```
-    
-    Question4:张江高新区杨浦园里有几家华润？
-    
-    ```
-    MATCH (poi)-[:IS_IN]->(:park {{名称: '张江高新区杨浦园'}})
-    WHERE poi.名称 CONTAINS '华润'
-    RETURN COUNT(poi) AS 华润数量
-    ```
+Question1:静安区的所有产业园区都有哪些？  
+```
+MATCH (p:park) 
+WHERE p.所属区县 = "静安区"
+RETURN p.名称 AS 园区名称
+```
+Question1:上海张江高科技园内的网格根据零售服务POI数量的排序是什么？ 
 
-    Question5:张江高新区杨浦园里的华润名称是什么？
-    
-    ```
-    MATCH (poi)-[:IS_IN]->(:park{{名称: '张江高新区杨浦园'}})
-    WHERE poi.名称 CONTAINS '华润'
-    RETURN poi.名称 AS 华润名称
-    ```
+```
+MATCH (p:park {{名称: "上海张江高科技园区"}})-[:IS_IN]-(f:fishnet)
+RETURN p.fishnet AS FishnetID, f.零售服务POI数量 AS RetailServicesCount
+ORDER BY RetailServicesCount DESC
+```
+
+Question3:朕天总部经济工业园里有没有便利店？
+
+```
+MATCH (poi:poi_retail)-[:IS_IN]->(:park {{名称: '朕天总部经济工业园'}})
+WHERE poi.类别 CONTAINS '便利店' OR poi.类别 CONTAINS '零售' OR poi.类别 CONTAINS '便民商店'
+RETURN COUNT(poi) AS 便利店数量
+```
+
+Question4:张江高新区杨浦园里有几家华润？
+
+```
+MATCH (poi)-[:IS_IN]->(:park {{名称: '张江高新区杨浦园'}})
+WHERE poi.名称 CONTAINS '华润'
+RETURN COUNT(poi) AS 华润数量
+```
+
+Question5:张江高新区杨浦园里的华润名称是什么？
+
+```
+MATCH (poi)-[:IS_IN]->(:park{{名称: '张江高新区杨浦园'}})
+WHERE poi.名称 CONTAINS '华润'
+RETURN poi.名称 AS 华润名称
+```
 
 
 #### Annotated data format
