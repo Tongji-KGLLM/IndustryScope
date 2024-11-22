@@ -140,15 +140,32 @@ RETURN poi.名称 AS 华润名称
 ```
 
 
-#### Annotated data format
+#### Key Statistics
 
-The Annotation file VIVA_annotation.json contains a list of json objects, with each json representing a sample. For each key:
+Table1: The Statistics of Entities in IndustryScopeKG
 
-- image_url: The original url of the image, representing the situation;
-- action_list: The action candidates in Level-1 Task;
-- answer: The correct answer candidate;
-- values: The human values in the Level-2 value inference task;
-- reason: The reason in the level-2 reason generation task.
+| **Basic Statistics**        | **Industrial Park** | **Grid** | **Grid Dominant Function** | **POI**   | **Enterprise** | **Total**   |
+|-----------------------------|---------------------|----------|---------------------------|-----------|----------------|-------------|
+| **Count**                   | 264                 | 128,866  | 15                        | 112,931   | 1,058,656      | 1,300,732   |
+| **(Leading) Industries**    | **Primary**         | **Secondary** | **Tertiary**          | **Scope of Operations** | **Planned** |             |
+| **Industrial Park**         | 202                 | 258      | 261                      | 261       | 70             | 1,052       |
+| **Grid**                    | 1,142               | 6,270    | 10,281                   | 20,246    | /              | 37,939      |
+| **Enterprise**              | 18                  | 90       | 392                      | 891,814   | /              | 892,314     |
+
+---
+
+Table2: The Statistics of Triples in IndustryScopeKG
+
+| **Relation**    | **Head & Tail Entity**                                                                                                      | **Triple Records** |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|--------------------|
+| **Locate in**    | (POI, Grid), (Enterprise, Grid), (POI, Industrial Park), (Enterprise, Industrial Park), (Grid, Industrial Park)           | 2,516,160          |
+| **Adjacent to**  | (Grid, Grid), (Industrial Park, Industrial Park)                                                                          | 488,401            |
+| **Similar to**   | (Industrial Park, Industrial Park)                                                                                       | 3,765              |
+| **Related to**   | (Industrial Park, Industrial Park)                                                                                       | 10,687             |
+| **Has**          | E.g., (Industrial Park, Planned Industries), (Grid, Leading Scope of Operations), (Grid, Dominant Functions)             | 4,252,341          |
+| **Attribution**  | (Industrial Park, Value) with 111 attributions, (Grid, Value) with 82 attributions, (POI, Value) including 15 attributions, (Enterprise, Value) with 36 attributions | 44,413,585         |
+
+
 
 
 ---
