@@ -88,28 +88,28 @@ Please check the scripts and instructions under the folder ```scripts```
 - [ ] To do
 
 
-## Citation 
+## 🤗 Citation 
 
-If you find our work useful, please cite:
+If our work sparks your interest or helps your research, a little cite would mean a lot!
 ```bibtex
-@inproceedings{hu-etal-2024-viva,
-    title = "{VIVA}: A Benchmark for Vision-Grounded Decision-Making with Human Values",
-    author = "Hu, Zhe  and
-      Ren, Yixiao  and
-      Li, Jing  and
-      Yin, Yu",
-    editor = "Al-Onaizan, Yaser  and
-      Bansal, Mohit  and
-      Chen, Yun-Nung",
-    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
-    year = "2024",
-    address = "Miami, Florida, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.emnlp-main.137",
-    pages = "2294--2311",
-    abstract = "This paper introduces VIVA, a benchmark for VIsion-grounded decision-making driven by human VA. While most large vision-language models (VLMs) focus on physical-level skills, our work is the first to examine their multimodal capabilities in leveraging human values to make decisions under a vision-depicted situation. VIVA contains 1,062 images depicting diverse real-world situations and the manually annotated decisions grounded in them. Given an image there, the model should select the most appropriate action to address the situation and provide the relevant human values and reason underlying the decision. Extensive experiments based on VIVA show the limitation of VLMs in using human values to make multimodal decisions. Further analyses indicate the potential benefits of exploiting action consequences and predicted human values.",
+@inproceedings{10.1145/3664647.3681705,
+author = {Wang, Siqi and Liang, Chao and Gao, Yunfan and Liu, Yang and Li, Jing and Wang, Haofen},
+title = {Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT},
+year = {2024},
+isbn = {9798400706868},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3664647.3681705},
+doi = {10.1145/3664647.3681705},
+abstract = {Industrial parks are critical to urban economic growth. Yet, their development often encounters challenges stemming from imbalances between industrial requirements and urban services, underscoring the need for strategic planning and operations. This paper introduces IndustryScopeKG, a pioneering large-scale multi-modal, multi-level industrial park knowledge graph, which integrates diverse urban data including street views, corporate, socio-economic, and geospatial information, capturing the complex relationships and semantics within industrial parks. Alongside this, we present the IndustryScopeGPT framework, which leverages Large Language Models (LLMs) with Monte Carlo Tree Search to enhance tool-augmented reasoning and decision-making in Industrial Park Planning and Operation (IPPO). Our work significantly improves site recommendation and functional planning, demonstrating the potential of combining LLMs with structured datasets to advance industrial park management. This approach sets a new benchmark for intelligent IPPO research and lays a robust foundation for advancing urban industrial development. The dataset and related code are available at https://github.com/Tongji-KGLLM/IndustryScope.},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {4757–4765},
+numpages = {9},
+keywords = {industrial park planning and operation, large language model agent, urban design and planning, urban knowledge graph},
+location = {Melbourne VIC, Australia},
+series = {MM '24}
 }
+
 
 ```
 
