@@ -20,7 +20,7 @@ Industrial parks are critical to urban economic growth. Yet, their development o
 ### 📰 Updates
 - **`2024/10/28`**  We’re thrilled to share that our work, [Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT](https://dl.acm.org/doi/abs/10.1145/3664647.3681705), has been published by the ACM MM 2024 conference. We are profoundly grateful for the contributions of all the contributors to this work！
 
-### 🔗 KGData
+### 🔗 IndustryscopeKG Data
 Our dataset is available on HuggingFace: [link](https://huggingface.co/datasets/zhehuderek/VIVA_Benchmark_EMNLP24)
 
 - Annotation File: The annotated data is available here: ```data/VIVA_annotation.json```
