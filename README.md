@@ -1,12 +1,12 @@
 <div align="center" style="font-family: charter;">
 
-<h1>Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT  [ACM MM 2024]</h1>
+<h1>Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT</h1>
 
 This repository provides the *data and code* of our paper:
 
 **Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT  [ACM MM 2024]**
 
-Zhe Hu, Yixiao Ren, Jing Li, Yu Yin
+Siqi Wang, Chao Liang, Yunfan Gao, Yang Liu, Jing Li, Haofen Wang
 
 ### [[Paper](https://aclanthology.org/2024.emnlp-main.137.pdf)] [[Website](https://derekhu.com/project_page/viva_website_emnlp24/)] [[Dataset](https://huggingface.co/datasets/zhehuderek/VIVA_Benchmark_EMNLP24)]
 
