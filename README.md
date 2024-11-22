@@ -45,8 +45,7 @@ mkdir VIVA_images
 python3 download_images.py
 ```
 
-You may also download the images from: [Google Drive](https://drive.google.com/drive/folders/1eFLdVoRdw3kNXdi-zkmf_NDyxEbbpGY5?usp=drive_link)
-- However, this link might be taken down any time.
+You may also download the IndustryscopeKG Data from: [Google Drive](https://drive.google.com/drive/folders/1eFLdVoRdw3kNXdi-zkmf_NDyxEbbpGY5?usp=drive_link)
 
 #### Annotated data format
 
