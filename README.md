@@ -19,7 +19,7 @@
 
 ----
 
-### ✏️ Hightlights
+## ✏️ Hightlights
 - **Top Open-Source Urban Knowledge Graph Dataset**
   
 IndustryScopeKG is the first and largest open-source, multimodal large-scale knowledge graph dataset. It integrates geospatial data such as street view images, points of interest, and crowd activities, along with socio-economic data including company information, real estate prices, and population statistics. The dataset contains 2,232,037 entities and 51,684,939 triples.
@@ -34,25 +34,11 @@ The IndustryScopeGPT framework was developed to enhance the planning, action, an
 <img src="assets/figure5.jpg" width="91.5%"/>
 </p>
 
-### 📰 Updates
+## 📰 Updates
 - **`2024/10/28`**  We’re thrilled to share that our work, [Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT](https://dl.acm.org/doi/abs/10.1145/3664647.3681705), has been published by the ACM MM 2024 conference. We are profoundly grateful for the contributions of all the contributors to this work！
 - **`2024/07/23`**  We are honored to share and present our work at the [MIT Media Lab-City Science Lab Community Meeting](https://www.youtube.com/watch?v=5X-Il5Ndkao&t=1661s). For more details, please visit the City Science Lab website: [Design and Data-Driven Hybrid Community Building](https://www.media.mit.edu/events/design-and-data-driven-hybrid-community-building-city-science-lab-shanghai/).
 
-### 🔗 IndustryscopeKG Data
-Our dataset is available on HuggingFace: [link](https://huggingface.co/datasets/zhehuderek/VIVA_Benchmark_EMNLP24)
-
-- Annotation File: The annotated data is available here: ```data/VIVA_annotation.json```
-
-- Image Download: Download the associated images by running the following command:
-```
-cd data
-mkdir VIVA_images
-python3 download_images.py
-```
-
-You may also download the IndustryscopeKG Data from: [Google Drive](https://drive.google.com/drive/folders/1eFLdVoRdw3kNXdi-zkmf_NDyxEbbpGY5?usp=drive_link)
-
-## 🔗 Dataset Access
+## 🔗 IndustryscopeKG Data
 
 The **raw dataset** is available for download from:
 
