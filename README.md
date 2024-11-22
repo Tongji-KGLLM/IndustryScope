@@ -12,7 +12,7 @@
 </p>
 
 
-<img src="docs/resources/teaser.png" width="100%"/>
+<img src="assets/figure1.png" width="100%"/>
 
 </div>
 
