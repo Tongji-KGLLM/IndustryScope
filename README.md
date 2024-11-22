@@ -85,7 +85,7 @@ Replace ```/path/to/your/induscopekg-data``` with the path to the directory cont
 
 ---
 
-### Step 4: Import IndustryScopeKG into Neo4j
+### Step 4: Import IndustryScopeKG into Neo4j (If needed)
 
 Run the following Cypher commands in the Neo4j browser to load the dataset:
 
