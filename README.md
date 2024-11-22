@@ -5,20 +5,13 @@ This repository provides the *data and code* of our paper:
 
 **Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT  [ACM MM 2024]**
 
-Siqi Wang, Chao Liang, Yunfan Gao, Yang Liu, Jing Li, Haofen Wang
+<p align="center">
+    <a href="https://github.com/huggingface/trl/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/huggingface/trl.svg?color=blue"></a>
+    <a href="https://github.com/MikaStars39/FeatureAlignment/blob/main/assets/qrcode_1731259533808.jpg"><img alt="Static Badge" src="https://img.shields.io/badge/QQ-join_group-red"></a>
+    <img alt="Static Badge" src="https://img.shields.io/badge/paper-arxiv-yellow">
+    <img alt="Static Badge" src="https://img.shields.io/badge/discord-join-purple">
 
-<div>
-    <a href="https://jihanyang.github.io/" target="_blank">Jihan Yang</a><sup>1</sup>,</span>
-    <a href="https://dingry.github.io/" target="_blank">Runyu Ding</a><sup>1</sup>,</span>
-    <a href="https://ellisbrown.github.io/" target="_blank">Ellis Brown</a><sup>2</sup>,</span>
-    <a href="https://xjqi.github.io/" target="_blank">Xiaojuan Qi</a><sup>1</sup>,</span>  
-    <a href="https://www.sainingxie.com/" target="_blank">Saining Xie</a><sup>2</sup>,</span>
-</div>
-
-<div>
-    <sup>1</sup>The University of Hong Kong&emsp;
-    <sup>2</sup>New York University
-</div>
+</p>
 
 [project page](https://virl-platform.github.io) | [arXiv](https://arxiv.org/abs/2402.03310)
 
