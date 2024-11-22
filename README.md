@@ -30,7 +30,7 @@ IndustryScopeKG is the first and largest open-source, multimodal large-scale kno
 
 The IndustryScopeGPT framework was developed to enhance the planning, action, and reasoning capabilities of large language models (LLMs) in industrial park planning and operations. This framework represents the first integration of large language models with spatial computing and dynamic reasoning on graph databases that incorporate external geospatial data, marking the first exploration of such applications in industrial park planning and operations.
 <p align="center">
-<img src="assets/figure5.jpg" width="90%"/>
+<img src="assets/figure5.jpg" width="91%"/>
 </p>
 
 ### 📰 Updates
