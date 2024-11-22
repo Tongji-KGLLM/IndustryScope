@@ -1,6 +1,7 @@
 <div align="center" style="font-family: charter;">
 
-<h1>Decoding Urban Industrial Complexity: Enhancing Knowledge-Driven Insights via IndustryScopeGPT</h1>
+<h1>Decoding Urban Industrial Complexity: 
+    Enhancing Knowledge-Driven Insights via IndustryScopeGPT</h1>
 
 This repository provides the *data and code* of our paper:
 
