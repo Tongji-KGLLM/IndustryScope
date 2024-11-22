@@ -16,9 +16,12 @@
 ----
 
 ### ✏️ Hightlights
-- Top Open-Source Urban Knowledge Graph Dataset
+- **Top Open-Source Urban Knowledge Graph Dataset**
+  
 IndustryScopeKG is the first and largest open-source, multimodal large-scale knowledge graph dataset. It integrates geospatial data such as street view images, points of interest, and crowd activities, along with socio-economic data including company information, real estate prices, and population statistics. The dataset contains 2,232,037 entities and 51,684,939 triples.
-- First Application of LLM in Industrial Park Planning and Operations
+
+- **First Application of LLM in Industrial Park Planning and Operations**
+
 The IndustryScopeGPT framework was developed to enhance the planning, action, and reasoning capabilities of large language models (LLMs) in industrial park planning and operations. This framework represents the first integration of large language models with spatial computing and dynamic reasoning on graph databases that incorporate external geospatial data, marking the first exploration of such applications in industrial park planning and operations.
 
 
