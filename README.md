@@ -70,7 +70,7 @@ docker run -d \
   neo4j:latest
 ```
 
-Replace /path/to/your/induscopekg-data with the path to the directory containing the dataset.
+Replace ```/path/to/your/induscopekg-data``` with the path to the directory containing the dataset.
 
 **Default credentials**:
 - **Username**: `neo4j`
@@ -94,8 +94,9 @@ LOAD CSV WITH HEADERS FROM 'file:///path/to/your/induscopekg-data.csv' AS row
 CREATE (e:Entity {id: row.entity_id, name: row.entity_name, type: row.entity_type})
 ```
 
-Replace the file path (file:///path/to/your/induscopekg-data.csv) with the actual location of your dataset CSV file.
-🌟 Usage Notes
+Replace the file path (```file:///path/to/your/induscopekg-data.csv```) with the actual location of your dataset CSV file.
+
+### 🌟 Usage Notes
 The dataset can be used standalone or integrated into your projects. It works particularly well with graph-based reasoning frameworks.
 For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
 Example Queries
