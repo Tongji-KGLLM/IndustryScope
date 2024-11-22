@@ -8,11 +8,25 @@ This repository provides the *data and code* of our paper:
 
 Siqi Wang, Chao Liang, Yunfan Gao, Yang Liu, Jing Li, Haofen Wang
 
-### [[Paper](https://aclanthology.org/2024.emnlp-main.137.pdf)] [[Website](https://derekhu.com/project_page/viva_website_emnlp24/)] [[Dataset](https://huggingface.co/datasets/zhehuderek/VIVA_Benchmark_EMNLP24)]
+<div>
+    <a href="https://jihanyang.github.io/" target="_blank">Jihan Yang</a><sup>1</sup>,</span>
+    <a href="https://dingry.github.io/" target="_blank">Runyu Ding</a><sup>1</sup>,</span>
+    <a href="https://ellisbrown.github.io/" target="_blank">Ellis Brown</a><sup>2</sup>,</span>
+    <a href="https://xjqi.github.io/" target="_blank">Xiaojuan Qi</a><sup>1</sup>,</span>  
+    <a href="https://www.sainingxie.com/" target="_blank">Saining Xie</a><sup>2</sup>,</span>
+</div>
 
-<div align='center'>
-<img src="./figures/task_example.jpg"  alt="NAME" align=center style="width: 550px;"/>
-</div>  
+<div>
+    <sup>1</sup>The University of Hong Kong&emsp;
+    <sup>2</sup>New York University
+</div>
+
+[project page](https://virl-platform.github.io) | [arXiv](https://arxiv.org/abs/2402.03310)
+
+<img src="docs/resources/teaser.png" width="100%"/>
+
+</div>
+
 
 ----
 
