@@ -98,7 +98,7 @@ Replace the file path (```file:///path/to/your/induscopekg-data.csv```) with the
 The dataset can be used standalone or integrated into your projects. It works particularly well with graph-based reasoning frameworks.
 For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
 
-#### Example Queries
+### 🌰 Example Queries
 Here are some useful Cypher queries you can play with:
 
 Question1: 静安区的所有产业园区都有哪些？  
@@ -140,7 +140,7 @@ RETURN poi.名称 AS 华润名称
 ```
 
 
-#### Key Statistics
+### 📈 Key Statistics
 
 Table1: The Statistics of Entities in IndustryScopeKG
 
