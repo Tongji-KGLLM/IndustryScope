@@ -101,7 +101,7 @@ The dataset can be used standalone or integrated into your projects. It works pa
 For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
 
 #### Example Queries
-Here’s an example Cypher query to find all connections for a specific entity:
+Here are some useful Cypher queries you can play with:
 
 Question1:静安区的所有产业园区都有哪些？  
 ```
