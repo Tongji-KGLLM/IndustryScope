@@ -52,6 +52,65 @@ python3 download_images.py
 
 You may also download the IndustryscopeKG Data from: [Google Drive](https://drive.google.com/drive/folders/1eFLdVoRdw3kNXdi-zkmf_NDyxEbbpGY5?usp=drive_link)
 
+## 🔗 Dataset Access
+
+The **raw dataset** is available for download from:
+
+- **[Kaggle](your-kaggle-link)**
+- **[Google Drive](your-google-drive-link)**
+
+For seamless integration, we recommend using **Neo4j** to analyze and interact with the knowledge graph.
+
+---
+
+## 🛠️ Getting Started with Neo4j
+
+We provide a **Neo4j Docker Image** to simplify the process of setting up and working with the IndustryScopeKG dataset.
+
+### Step 1: Install Docker
+
+Ensure you have Docker installed on your system. For installation instructions, visit [Docker's official website](https://www.docker.com/).
+
+### Step 2: Start Neo4j with IndustryScopeKG
+
+Run the following command to start a Neo4j container with the dataset preloaded:
+
+```bash
+docker run -d \
+  --name industryscope-neo4j \
+  -p 7474:7474 -p 7687:7687 \
+  -e NEO4J_AUTH=neo4j/password \
+  -v /path/to/your/induscopekg-data:/data \
+  neo4j:latest
+Replace /path/to/your/induscopekg-data with the path to the directory containing the dataset.
+Default credentials:
+Username: neo4j
+Password: password (you can customize this in the NEO4J_AUTH variable).
+Step 3: Access Neo4j
+Open your browser and navigate to: http://localhost:7474
+Login with the credentials you set (neo4j/password).
+Step 4: Import IndustryScopeKG into Neo4j
+Run the following Cypher commands in the Neo4j browser to load the dataset:
+
+```
+LOAD CSV WITH HEADERS FROM 'file:///path/to/your/induscopekg-data.csv' AS row
+CREATE (e:Entity {id: row.entity_id, name: row.entity_name, type: row.entity_type})
+```
+Replace the file path (file:///path/to/your/induscopekg-data.csv) with the actual location of your dataset CSV file.
+
+🌟 Usage Notes
+The dataset can be used standalone or integrated into your projects. It works particularly well with graph-based reasoning frameworks.
+For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
+Example Queries
+Here’s an example Cypher query to find all connections for a specific entity:
+
+```
+MATCH (e:Entity)-[r]->(related:Entity)
+WHERE e.name = 'Industrial Park A'
+RETURN e, r, related
+```
+
+
 #### Annotated data format
 
 The Annotation file VIVA_annotation.json contains a list of json objects, with each json representing a sample. For each key:
