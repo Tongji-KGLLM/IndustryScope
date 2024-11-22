@@ -40,7 +40,7 @@ The IndustryScopeGPT framework was developed to enhance the planning, action, an
 
 ## 🔗 IndustryscopeKG Data
 
-The **raw dataset** is available for download from:
+The **raw data** is available for download from:
 
 - **[Kaggle](your-kaggle-link)**
 - **[Google Drive](your-google-drive-link)**
