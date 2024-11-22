@@ -173,7 +173,7 @@ Table2: The Statistics of Triples in IndustryScopeKG
 ## 🤖 IndustryscopeGPT
 
 ### Model Inference
-Please check the scripts and instructions under the folder ```scripts```
+Please check the IndustryscopeGPT scripts under the folder ```scripts```
 
 ### Experiments
 
