@@ -76,14 +76,12 @@ Replace ```/path/to/your/induscopekg-data``` with the path to the directory cont
 - **Username**: `neo4j`
 - **Password**: `password` (you can customize this in the `NEO4J_AUTH` variable).
 
----
 
 ### Step 3: Access Neo4j
 
 1. Open your browser and navigate to: [http://localhost:7474](http://localhost:7474).
 2. Login with the credentials you set (`neo4j/password`).
 
----
 
 ### Step 4: Import IndustryScopeKG into Neo4j (If needed)
 
