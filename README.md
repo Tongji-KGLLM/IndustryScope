@@ -99,7 +99,8 @@ Replace the file path (```file:///path/to/your/induscopekg-data.csv```) with the
 ### 🌟 Usage Notes
 The dataset can be used standalone or integrated into your projects. It works particularly well with graph-based reasoning frameworks.
 For LLM-based planning and operations, the dataset complements the IndustryScopeGPT framework, providing a dynamic and insightful environment for urban and industrial research.
-Example Queries
+
+#### Example Queries
 Here’s an example Cypher query to find all connections for a specific entity:
 
 ```
