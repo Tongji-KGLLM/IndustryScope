@@ -80,7 +80,7 @@ After the image is loaded, Docker will display the name and tag of the image, ty
 Run the following command to start a Neo4j container with the dataset preloaded:
 
 ```bash
-docker run -d \
+docker run \
   --name industryscopekgneo4j \
   -p 7474:7474 -p 7687:7687 \
   -e NEO4J_AUTH=neo4j/bitnami1 \
