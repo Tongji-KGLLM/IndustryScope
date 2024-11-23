@@ -47,7 +47,8 @@ The **raw data** is available for download from **[Kaggle](https://www.kaggle.co
 This file contains the standalone Knowledge Graph data, designed for users who want to work directly with the raw data or already have a Neo4j setup and wish to directly import the dataset.
 
 `industryscopekgdocker.sip`
-This is a pre-configured Neo4j Docker package that includes the Knowledge Graph data, providing a convenient out-of-the-box solution for users. Note: Before using, please rename the file extension from .sip to .zip and unzip the contents.
+If you downloaded the file as `industryscopekgdocker.sip`, please rename the file extension from `.sip` to `.zip` and unzip the contents.
+If you obtained the file from Baidu Netdisk, it will already be named `industryscopekgdocker.zip`, and no further renaming is required. Simply unzip the contents to proceed.
 
 For seamless integration, we recommend using **Neo4j** to analyze and interact with the knowledge graph.
 
