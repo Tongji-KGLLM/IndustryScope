@@ -43,10 +43,12 @@ The IndustryScopeGPT framework was developed to enhance the planning, action, an
 
 The **raw data** is available for download from **[Kaggle](https://www.kaggle.com/datasets/amoyoukou/industryscopekg)** or **[Baidu Netdisk](https://pan.baidu.com/s/1Szh9Duj6SFsapz9PsBPp8g?pwd=ni3n)**.
 
-`industryscopekg.dump`
+- `industryscopekg.dump`
+
 This file contains the standalone Knowledge Graph data, designed for users who want to work directly with the raw data or already have a Neo4j setup and wish to directly import the dataset.
 
-`industryscopekgdocker.sip`
+- `industryscopekgdocker.sip`
+
 If you downloaded the file as `industryscopekgdocker.sip`, please rename the file extension from `.sip` to `.zip` and unzip the contents.
 If you obtained the file from Baidu Netdisk, it will already be named `industryscopekgdocker.zip`, and no further renaming is required. Simply unzip the contents to proceed.
 
