@@ -69,8 +69,10 @@ Use the following command to load the `industryscopekgdocker.tar` into your loca
 
 ```bash
 docker load -i industryscopekgdocker.tar
-After the image is loaded, Docker will display the name and tag of the image, typically neo4jv_backup:latest.
 ```
+
+After the image is loaded, Docker will display the name and tag of the image, typically `neo4jv_backup:latest`.
+
 
 ### Step 3: Start Neo4j with IndustryScopeKG
 Run the following command to start a Neo4j container with the dataset preloaded:
