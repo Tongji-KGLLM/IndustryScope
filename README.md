@@ -41,7 +41,7 @@ The IndustryScopeGPT framework was developed to enhance the planning, action, an
 
 ## 🔗 IndustryscopeKG Data
 
-The **raw data** is available for download from **[Kaggle](https://www.kaggle.com/datasets/amoyoukou/industryscopekg)** or **[Baidu Netdisk](https://www.kaggle.com/datasets/amoyoukou/industryscopekg)**.
+The **raw data** is available for download from **[Kaggle](https://www.kaggle.com/datasets/amoyoukou/industryscopekg)** or **[Baidu Netdisk](https://pan.baidu.com/s/1Szh9Duj6SFsapz9PsBPp8g?pwd=ni3n)**.
 
 `industryscopekg.dump`
 This file contains the standalone Knowledge Graph data, designed for users who want to work directly with the raw data or already have a Neo4j setup and wish to directly import the dataset.
