@@ -50,6 +50,8 @@ This file contains the standalone Knowledge Graph data, designed for users who w
 If you downloaded the file as `industryscopekgdocker.sip`, please rename the file extension from `.sip` to `.zip` and unzip the contents.
 If you obtained the file from Baidu Netdisk, it will already be named `industryscopekgdocker.zip`, and no further renaming is required. Simply unzip the contents to proceed.
 
+After unzipping the `.zip` file, you will get the `industryscopekgdocker.tar` file. 
+
 For seamless integration, we recommend using **Neo4j** to analyze and interact with the knowledge graph.
 
 ---
@@ -63,7 +65,7 @@ We provide a **Neo4j Docker Image** to simplify the process of setting up and wo
 Ensure you have Docker installed on your system. For installation instructions, visit [Docker's official website](https://www.docker.com/).
 
 ### Step 2: Load the Docker Image
-Download the industryscopekgdocker.tar file, and use the following command to load the Docker image into your local Docker environment:
+Use the following command to load the `industryscopekgdocker.tar` into your local Docker environment:
 
 ```bash
 docker load -i industryscopekgdocker.tar
