@@ -80,25 +80,16 @@ After the image is loaded, Docker will display the name and tag of the image, ty
 Run the following command to start a Neo4j container with the dataset preloaded:
 
 ```bash
-docker run \
-  --name industryscopekgneo4j \
-  -p 7474:7474 -p 7687:7687 \
-  -e NEO4J_AUTH=neo4j/bitnami1 \
-  -v /path/to/your/neo4j-data:/data \
-  neo4jv_backup:latest
+docker run -itd --name industryscope -p 7474:7474 -p 7687:7687 neo4jv_backup:latest
 ```
-Replace ```/path/to/your/neo4j-data``` with the path to the directory where you want to store Neo4j data persistently on your system. This ensures your data is saved even if the container is stopped or removed.
 
-**Default credentials**:
-- **Username**: `neo4j`
-- **Password**: `bitnami1`
-
-**Security Note**: The default credentials (`neo4j/bitnami1`) are publicly available. For production environments, it is highly recommended to change the password by modifying the `NEO4J_AUTH` environment variable during container setup.
 
 ### Step 4: Access Neo4j
 
 1. Open your browser and navigate to: [http://localhost:7474](http://localhost:7474).
-2. Login with the credentials you set (`Username/Password`).
+2. Connect to Neo4j.
+
+![image](https://github.com/user-attachments/assets/0fdfefde-c83e-412a-bf3b-f7c7e8ee53a0)
 
 
 ### Step 5: Import IndustryScopeKG into Neo4j (If needed)
