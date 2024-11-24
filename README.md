@@ -8,7 +8,7 @@
         <img alt="Paper" src="https://img.shields.io/badge/Paper-Arxiv-green"></a>
     <a href="https://www.youtube.com/watch?v=5X-Il5Ndkao&t=1661s">
         <img alt="YouTube" src="https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube"></a>        
-         
+
 </p>
 
 
@@ -22,7 +22,7 @@
 ## ✏️ Hightlights
 
 ### 🎯 Top Open-Source Urban Knowledge Graph Dataset
-  
+
 IndustryScopeKG is the first and largest open-source, multimodal large-scale knowledge graph dataset. It integrates geospatial data such as street view images, points of interest, and crowd activities, along with socio-economic data including company information, real estate prices, and population statistics. The dataset contains 2,232,037 entities and 51,684,939 triples.
 <p align="center">
 <img src="assets/figure4.jpg" width="95%"/>
@@ -81,24 +81,24 @@ Run the following command to start a Neo4j container with the dataset preloaded:
 
 ```bash
 docker run \
-  --name industryscopekgneo4j \
+  -itd \
+  --name industryscope \
   -p 7474:7474 -p 7687:7687 \
-  -e NEO4J_AUTH=neo4j/bitnami1 \
-  -v /path/to/your/neo4j-data:/data \
   neo4jv_backup:latest
 ```
-Replace ```/path/to/your/neo4j-data``` with the path to the directory where you want to store Neo4j data persistently on your system. This ensures your data is saved even if the container is stopped or removed.
 
 **Default credentials**:
 - **Username**: `neo4j`
 - **Password**: `bitnami1`
 
-**Security Note**: The default credentials (`neo4j/bitnami1`) are publicly available. For production environments, it is highly recommended to change the password by modifying the `NEO4J_AUTH` environment variable during container setup.
+**Note**: We use `bitnami/neo4j:5.13.0` as our base image, and we compiled [spatial plugin](https://github.com/neo4j-contrib/spatial.git) manually with maven which already exists in our docker image provided. 
 
 ### Step 4: Access Neo4j
 
 1. Open your browser and navigate to: [http://localhost:7474](http://localhost:7474).
-2. Login with the credentials you set (`Username/Password`).
+2. Login with the credentials  (`neoo4j/bitnami1`).
+
+![neoj](assets/figure3.png)
 
 
 ### Step 5: Import IndustryScopeKG into Neo4j (If needed)
