@@ -101,16 +101,6 @@ docker run \
 ![neoj](assets/figure3.png)
 
 
-### Step 5: Import IndustryScopeKG into Neo4j (If needed)
-
-Run the following Cypher commands in the Neo4j browser to load the dataset:
-
-```cypher
-LOAD CSV WITH HEADERS FROM 'file:///path/to/your/induscopekg-data.csv' AS row
-CREATE (e:Entity {id: row.entity_id, name: row.entity_name, type: row.entity_type})
-```
-
-Replace the file path (```file:///path/to/your/induscopekg-data.csv```) with the actual location of your dataset CSV file.
 
 ### 🌰 Example Queries
 Here are some useful Cypher queries you can play with:
